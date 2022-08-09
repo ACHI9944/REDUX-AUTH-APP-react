@@ -16,5 +16,6 @@ const initialAuthState = {
       },
     },
   });
+  export const authActions = authSlice.actions;
 
-  export default authSlice;
+  export default authSlice.reducer;
